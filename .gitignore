@@ -1,0 +1,12 @@
+target
+.idea
+out
+gh-pages
+HeapPrimer.iml
+HeapPrimer.jar
+.classpath
+.project
+.settings
+release.properties
+pom.xml.releaseBackup
+src/main/java/Version.java

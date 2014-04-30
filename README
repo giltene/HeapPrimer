@@ -1,0 +1,19 @@
+HeapPrimer:
+# Written by Gil Tene of Azul Systems, and released to the public domain,
+# as explained at http://creativecommons.org/publicdomain/zero/1.0/
+#
+# Version: 1.1.7
+----------------------------------------------------------------------------
+HeapPrimer is intended to prime the java heap allocation mechanism by
+allocating enough objects to fill the heap (or more) immediately upon
+startup.
+----------------------------------------------------------------------------
+Running as a Java agent:
+
+HeapPrimer.jar can be run as a java agent using the following launch syntax:
+
+% java -javaagent:HeapPrimer.jar="<options>" -jar MyProgram.jar -a -b -c
+
+Building instructions:
+
+Use maven...
